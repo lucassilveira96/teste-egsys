@@ -2,7 +2,7 @@
 Teste Técnico egsys utilizando Kotlin com Spring e Synfony Framework 5.2
 
 rotas kotlin:
-//adicionar uma nova pessoa
+adicionar uma nova pessoa
 POST
 localhost:8080/pessoa
 
