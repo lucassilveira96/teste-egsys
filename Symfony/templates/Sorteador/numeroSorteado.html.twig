@@ -27,22 +27,12 @@
 <br>
 <div class="card" style="width: 50rem;margin: 0 auto">
     <div class="card-body">
-        <h5 class="card-title">Sorteador Online</h5>
-        <div class="mb-3">
-            <form action="/sortear" method="post">
-                <div class="row">
-                    <div class="col">
-                        <input type="number" name="valorMinimo" id="valorMinimo"  class="form-control" placeholder="valor minimo">
-                    </div>
-                    <div class="col">
-                        <input type="number" name="valorMaximo" id="valorMaximo" class="form-control" placeholder="valor maximo">
-                    </div>
-                </div>
-                <div style="justify-content: center;">
-                    <br>
-                    <button  type="submit" class="btn btn-primary" style="justify-content: center;">Sortear</button>
-                </div>
-            </form>
-        </div>
+        <h5 class="card-title">Número Sorteado</h5>
+        {% block teste%}
+            <h>
+                {{ valor }}
+            </h>
+            <br>
+        {% endblock %}
     </div>
 </div>
